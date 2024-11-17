@@ -1,11 +1,12 @@
-import './App.css';
+import React from "react";
+import './styles/App.css';
+import SearchBar from "../src/components/searchbar";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello World!</h1>
-      </header>
+      <SearchBar />
     </div>
   );
 }
