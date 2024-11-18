@@ -1,11 +1,13 @@
 import React, {useState} from "react";
 import "./searchResults.css";
+import TrackList from "../TrackList/tracklist";
 
-function SearchResults (props) {
+const SearchResults = (props) => {
     return (
         <>
             <div className="searchResults">
-                <div id="searchOutput"><h3>{props.songName}</h3></div>
+                <h3>Results</h3>
+                {/* <Tracklist tracks={props.searchResults} onAdd={props.onAdd} /> */}
             </div>
         </>
     );     
