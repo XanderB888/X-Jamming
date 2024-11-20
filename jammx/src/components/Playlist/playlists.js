@@ -1,6 +1,6 @@
 import React, { useCallback } from React;
 import "./playlist.css";
-import TrackList from "../TrackList/tracklist";
+import TrackList from "../TrackList/TrackList";
 
 const Playlist = (props) => {
 

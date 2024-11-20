@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import "./searchResults.css";
-import TrackList from "../TrackList/tracklist";
+import TrackList from "../TrackList/TrackList";
 
 const SearchResults = (props) => {
     return (
