@@ -4,7 +4,7 @@ import './App.css';
 import Playlist from "../Playlist/playlist";
 import SearchBar from "../SearchBar/searchbar";
 import SearchResults from "../SearchResults/searchResults";
-// Need to Import Spotify from Util here
+import Spotify from "../../Utilities/Spotify";
 
 const App = () => {
   const [searchResults, setSearchResults] = useState([]);
@@ -37,7 +37,7 @@ const App = () => {
 
   const savePlaylist = useCallback(() => {
     const trackUris = playlistTracks.map((track) => track.uri);
-    Spotify.savePLaylist(playlistName, trackUris).then(() => {
+    Spotify.savePlaylist(playlistName, trackUris).then(() => {
       setPlaylistName("New Playlist");
       setPlaylistTracks([]);
     });
@@ -46,7 +46,7 @@ const App = () => {
   return (
     <div>
       <h1>
-        Ja<span className="highlight">mmm</span>ing
+        <span className="Title">Spotify Playlist Creator</span>
       </h1>
       <div className="App">
         <SearchBar onSearch={search} />

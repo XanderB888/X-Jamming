@@ -5,3 +5,13 @@
   padding-top: 10px;
 }
 
+.Title {
+  outline: solid black 1px;
+}
+
+.App {
+  outline: solid black 1px;
+}
+.App-playlist {
+  outline: solid black 1px;
+}
