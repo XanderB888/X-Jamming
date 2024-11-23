@@ -1,3 +1,21 @@
 .SearchBar {
     align-items: center;
+    display: inline-flex;
 }
+
+input {
+    color: white;
+    background-color: black;
+    outline-color: rgb(255, 0, 191);
+    font-size: 16px;
+    text-transform: capitalize;
+    width: 300px ;
+    font-family: 'Major Mono Display';
+}
+
+button {
+    background-color: rgb(255, 0, 191);
+    color: black;
+    outline-color: rgb(255, 0, 191);
+}
+

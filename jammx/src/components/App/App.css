@@ -3,15 +3,27 @@
   font-family:'Times New Roman', Times, serif;
   margin: auto;
   padding-top: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+h1 {
+  padding-bottom: 20px;
 }
 
 .Title {
-  outline: solid black 1px;
+  font-family: 'Audiowide', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  background-color: rgb(255, 0, 191);
+  border-radius: 10px;
+  width: fit-content;
+  padding: 10px;
+  display: flex;
 }
 
 .App {
-  outline: solid black 1px;
+  display: inline-flexbox;
 }
-.App-playlist {
-  outline: solid black 1px;
-}
+/* .App-playlist {
+  outline: solid orange 1px;
+} */

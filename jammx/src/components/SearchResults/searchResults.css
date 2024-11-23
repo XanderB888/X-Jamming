@@ -1,8 +1,10 @@
 .searchResults {
-    width: 50%;
     display: flex;
+    max-width: fit-content;
     flex-direction: column; 
-    background-color: rgb(0, 255, 179);
+    background-color: rgb(255, 0, 191);
+    padding: 10px;
+    border-radius: 10px;
 }
 
 #searchOutput {
@@ -12,4 +14,11 @@
     max-height: 300px;
     overflow-y: scroll;
     margin-top: 1rem;
+}
+
+h2 {
+    font-family: 'Audiowide';
+    background-color: rgb(255, 0, 191);
+
+    position:sticky;
 }
