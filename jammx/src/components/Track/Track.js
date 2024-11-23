@@ -12,7 +12,8 @@ const Track = (props) => {
     const removeTrack = useCallback(
         (event) => {
             props.onRemove(props.track);
-        }, [props.onRemove, props.track]
+        }, 
+        [props.onRemove, props.track]
     );
 
     const renderAction = () => {
@@ -35,7 +36,7 @@ const Track = (props) => {
             <div className="Track-information">
                 <h3>{props.track.name}</h3>
                 <p>
-                    {props.track.artist} | {props.track.abum}
+                  {props.track.artist} | {props.track.abum}
                 </p>
             </div>
             {renderAction()}

@@ -13,14 +13,13 @@ const SearchBar = (props) => {
     }, [props.onSearch, term]);
 
     return (
-        <div className="searchBar">  
+        <div className="SearchBar">  
             <input placeholder="Enter a Song Title" onChange={handleTermChange} />
             <button className="SearchButton" onClick={search}>
                 Search
-            </button>
-            
+            </button>  
         </div>
     );     
-}
+};
 
 export default SearchBar;
