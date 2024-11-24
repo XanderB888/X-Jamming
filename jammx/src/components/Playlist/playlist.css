@@ -1,3 +1,19 @@
 
+.Playlist-save {
+    font-family: 'Audiowide';
+    font-weight: 800;
+    padding: 10px 6px;
+    margin-top: 30px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+#Playlist-name {
+
+    outline: solid rgb(255, 0, 191) 3px;
+    padding: 5px 3px;
+    margin: 5px 3px;
+}
+
 
   

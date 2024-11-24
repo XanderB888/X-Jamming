@@ -4,7 +4,7 @@
 }
 
 input {
-    color: white;
+    color: rgb(255, 255, 255);
     background-color: black;
     outline-color: rgb(255, 0, 191);
     font-size: 16px;
@@ -14,8 +14,11 @@ input {
 }
 
 button {
-    background-color: rgb(255, 0, 191);
+    background-color: rgb(0, 221, 255);
     color: black;
     outline-color: rgb(255, 0, 191);
+    font-family: 'Audiowide';
+    font-weight: 800;
+    padding: 5px 6px;
 }
 

@@ -2,33 +2,57 @@
     width: 30px;
     height: 20px;
     padding: 15px 10px 15px 10px;
-    margin: 20px;
-    background-color: rgb(255, 118, 239);
-    /* background-image: url('./Plus\ icon\ for\ Jamming.png'); */
+    margin: 10px;
+    background-color: black;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     outline: none;
     box-sizing: content-box;
     border-radius: 25%;
+    font-weight: bolder;
+    color:  rgb(255, 0, 191);
+    outline: solid rgb(255, 0, 191) 1px;
+}
+
+.Track-action-remove {
+    width: 30px;
+    height: 20px;
+    padding: 15px 10px 15px 10px;
+    margin: 10px;
+    background-color: black;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    outline: none;
+    box-sizing: content-box;
+    border-radius: 25%;
+    font-weight: bolder;
+    color:  rgb(255, 0, 191);
+    outline: solid rgb(255, 0, 191) 1px;
 }
 
 .Track {
     background-color: black;
     padding: 5px 50px 0 50px;
+    max-width: fit-content;
 }
 
 .Track-information {
     border-radius: 10px;
     padding: 5px;
     margin: 20px 0px 0px 0px;
-    background-color:rgb(255, 118, 239);
+    background-color:rgb(255, 108, 218);
 }
 
 h3 {
-    background-color:rgb(255, 118, 239);
+    background-color:rgb(255, 108, 218);
+    font-family: 'Raleway';
+    font-weight: 900;
 }
 
 p {
-    background-color: rgb(255, 118, 239);
+    background-color: rgb(255, 108, 218);
+    font-family: 'Raleway';
+    font-weight: 800;
 }
