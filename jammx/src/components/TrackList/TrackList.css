@@ -2,9 +2,10 @@
     max-height: 600px;
     overflow-y: scroll;
     max-width: 460px;
-    outline: solid rgb(255, 0, 191) 10px;
+    outline: solid rgb(224, 50, 230) 10px;
     border-radius: 5px;
     padding: 10px;
+    background-color: black;
 }
 
 .TrackList ::-webkit-scrollbar {

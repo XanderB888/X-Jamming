@@ -46,7 +46,7 @@ const App = () => {
   return (
     <div>
       <h1>
-        <span className="Title">Spotify Playlist Creator</span>
+        <span className="Title">Jamm-X</span>
       </h1>
       <div className="App">
         <SearchBar onSearch={search} />
