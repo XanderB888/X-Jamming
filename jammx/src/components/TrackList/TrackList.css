@@ -1,6 +1,6 @@
 .TrackList {
     max-height: 600px;
-    overflow-y: scroll;
+    overflow-y: auto;
     max-width: 460px;
     outline: solid rgb(224, 50, 230) 10px;
     border-radius: 5px;
